@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+}
+
+ul{
+    list-style: none;
+}
+
+.site-header{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+.site-logo{
+    font-family: sans-serif ;
+}
+
+.menu-list{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.menu-link{
+    text-decoration: none;
+    color: #C92071;
+    font-size: 22px;
+    font-weight: bold;
+}
